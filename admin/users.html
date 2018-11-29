@@ -1,0 +1,56 @@
+<div>
+    <h1>User List</h1>
+    <label for="order">
+        Order by: 
+        <select name="order" id="order">
+            <option value="">Select</option>
+            <option value="asc">A-Z</option>
+            <option value="desc">Z-A</option>
+        </select>
+    </label>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Type</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td><input type="checkbox" name="user[1]"></td>
+                <td>1</td>
+                <td>Josue Smers</td>
+                <td>josue.smers@gmail.com</td>
+                <td>Writer</td>
+                <td><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="user[2]"></td>
+                <td>2</td>
+                <td>Carla Gloyna</td>
+                <td>cgloyna@hotmail.com</td>
+                <td>Reader</td>
+                <td><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="user[3]"></td>
+                <td>3</td>
+                <td>Jenna Kristin</td>
+                <td>kristin.j@outlook.com</td>
+                <td>Admin</td>
+                <td><a href="#">Edit</a></td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</div>
