@@ -1,0 +1,37 @@
+{
+  "name": "template-project",
+  "version": "1.0.0",
+  "description": "Projeto de tutoria que desenvolverá um template e fará sua integração com uma API RESTFul",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narukaioh/exercicios.git"
+  },
+  "keywords": [
+    "jsladies",
+    "tutoria",
+    "restfull",
+    "api"
+  ],
+  "author": "Ju Dantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narukaioh/exercicios/issues"
+  },
+  "homepage": "https://github.com/narukaioh/exercicios#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "html": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
