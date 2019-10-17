@@ -1,0 +1,47 @@
+
+
+1. Git e Github >>  clonar esse repositorio no computador de vcs (git clone), 
+
+2. Pareamento (Pair programming)>> ja q eu nao encontrei nenhum software pra pareamento online vcs 
+podem usar algo como o discord e compartilhar a tela de vcs uma com a outra.
+
+Uma explicação sobre Pair programming
+https://www.youtube.com/watch?v=5M8yNQSFBPg
+
+Vcs precisam saber oq é Pair Programming para que 
+cada uma esteja alinhada e saber oq deve fazer quando estiverem trabalhando juntas online.
+
+Após vcs definirem como ficará melhor para trabalhar, 
+
+3. Fluxos e Processos >> vcs podem começar a usar o git.
+
+Se cada uma ja tiver o git instalado na sua maquina e estiver compartilhando a tela, 
+sempre q forem trocando de função (piloto pra co-piloto), vcs vao commitando o que foi feito.
+
+4. Integração contínua >> A regra pra commits é:
+
+    Criar um branch que siga um padrao de nome, nossos branches podem ser assim:
+
+        CARD-<Numero>/<titulo-do-card>
+
+    Exemplo:
+    
+        Titulo do card: Estilizar formulário de login
+        Nome do branch: CARD-1/estilizar-formulario-login
+
+    Quando forem commitar, tb é legal seguirem um padrao,
+    O nosso pode ser assim:
+
+        CARD-1 [pessoa1/pessoa2] <breve-descricao-de-uma-linha>
+
+        Exemplo:
+        
+        "CARD-1 [@judantas/@alinebastos] Foi adicionado estilo aos inputs do formulario"
+
+Pra quem nao ta entendendo o que é branch, commit, e aonde fazer isso, 
+é necessário q vcs vejam aquele curso rapido de 2h que eu indiquei. 
+Se assistiu o curso e nao entendeu, anotem as duvidas aos domingos pelo discord,
+no periodo da tarde eu posso explicar.
+
+Vou deixar de novo aqui o link do curso:
+https://www.udemy.com/git-e-github-para-iniciantes/
